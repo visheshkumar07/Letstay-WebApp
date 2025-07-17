@@ -1,0 +1,213 @@
+body{
+     font-family: "Plus Jakarta Sans", sans-serif !important;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    height: 8rem;
+    
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: space-evenly;
+}
+
+
+/* cards */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* new page */
+.add-btn{
+   background-color: #fe424d !important;
+   border: none !important;
+}
+
+/* edit page */
+
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show page */
+
+.show-img{
+    height: 35vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.orgImage{
+height:200px;
+width:300px;
+}
+
+/* filter style */
+
+.filter a {
+  color: black;
+  opacity: 0.8;
+}
+
+/* map */
+#map {
+    height: 300px;
+    width: 100vh;
+
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 992px) {
+  .card.col-6.offset-3.show-card.listing-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btns .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .col-8.offset-3 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .starability-slot label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-img {
+    height: 25vh;
+  }
+
+  .card.col-5.ms-3.mb-3 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  #map {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3, h4 {
+    font-size: 1.2rem;
+  }
+
+  .btns {
+    flex-direction: column;
+  }
+
+  .btns .btn {
+    margin: 5px 0;
+  }
+
+  .card.col-6.offset-3.show-card.listing-card {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  #map {
+    height: 250px;
+    width: 355px;
+  }
+}
