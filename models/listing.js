@@ -37,6 +37,7 @@ const listingSchema = new Schema({
       required: true
     },
   },
+  
 
 });
 
