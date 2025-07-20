@@ -58,6 +58,15 @@ body{
     align-items: space-evenly;
 }
 
+.f-info-socials a{
+  color: black;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.f-info-socials a:hover{
+  opacity: 1;
+}
 
 /* cards */
 
