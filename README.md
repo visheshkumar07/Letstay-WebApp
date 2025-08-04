@@ -22,3 +22,7 @@ Backend: Node.js, Express.js
 Database: MongoDB with Mongoose
 
 Architecture: MVC (Model-View-Controller)
+
+
+<img width="1919" height="1003" alt="Letstay ss" src="https://github.com/user-attachments/assets/272d9ae8-52c4-4701-a43a-d4eccdaa2fcb" />
+
